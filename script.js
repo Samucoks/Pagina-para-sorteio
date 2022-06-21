@@ -13,6 +13,6 @@ botao.onclick = ()=>{
     winner.innerHTML = "O nome do(a) Vencedor(a) é: "+participantes[sorteio]
     }
     else{
-        winner.innerHTML = ''
+        winner.innerHTML = null
     }
 }
